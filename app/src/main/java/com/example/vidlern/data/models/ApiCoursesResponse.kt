@@ -1,4 +1,4 @@
-package com.example.vidlern.data.retrofit.models
+package com.example.vidlern.data.models
 
 data class ApiCoursesResponse(
     val count: Int,

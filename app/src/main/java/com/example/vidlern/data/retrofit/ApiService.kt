@@ -1,6 +1,6 @@
 package com.example.vidlern.data.retrofit
 
-import com.example.vidlern.data.retrofit.models.ApiCoursesResponse
+import com.example.vidlern.data.models.ApiCoursesResponse
 import retrofit2.http.GET
 import retrofit2.http.Headers
 

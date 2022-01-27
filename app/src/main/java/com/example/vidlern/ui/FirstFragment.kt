@@ -40,10 +40,8 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        viewModel.getCourses()
-
-        viewModel.count.observe(viewLifecycleOwner, Observer{
-            binding.textviewFirst.text = it.toString()
+        viewModel.courses.observe(viewLifecycleOwner, Observer{
+            binding.textviewFirst.text = it.size.toString()
         })
 
         binding.buttonFirst.setOnClickListener {
